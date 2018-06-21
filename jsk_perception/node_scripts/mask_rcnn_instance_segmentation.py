@@ -45,7 +45,7 @@ class MaskRCNNInstanceSegmentation(ConnectionBasedTransport):
 
         n_fg_class = len(self.fg_class_names)
         self.model = chainer_mask_rcnn.models.MaskRCNNResNet(
-            n_layers=50,
+            n_layers=101,
             n_fg_class=n_fg_class,
             pretrained_model=pretrained_model,
         )

@@ -138,6 +138,12 @@ def main():
         url='https://drive.google.com/uc?id=1doj3XMY0KYVAkIubmsi5-Oec4y0vvVP2',
         md5='dddd2c6d7738ac19536a032aed8f9967',
     )
+    download_data(
+        path='sample/data/cuboid_object_plane_detection.bag',
+        url='https://drive.google.com/uc?id=1rcac6KOKVjOGHcmVnXAnWUlTnoOMZtgs',
+        md5='aa431f80a62cf21fa9c00fd1ab83e330',
+    )
+
 
 
 
